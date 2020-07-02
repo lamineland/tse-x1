@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.swiper-wrapper {
+  height: 395px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* La taille du background  */
+
+.thesize {
+  min-height: '100vh';
+  background-color: '#03a9f4';
+}
+
+/* Background for devTSE  */
+
+.bgDev {
+  background: linear-gradient(270deg, #03a9f4, #3385aa);
+  background-size: 400% 400%;
+
+  -webkit-animation: dostars 29s ease infinite;
+  -moz-animation: dostars 29s ease infinite;
+  -o-animation: dostars 29s ease infinite;
+  animation: dostars 29s ease infinite;
+}
+
+@-webkit-keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+/* Background for ArchiTSE */
+
+.bgArchi {
+  background: linear-gradient(270deg, #29e361, #eac83b);
+  background-size: 400% 400%;
+
+  -webkit-animation: archiTse 29s ease infinite;
+  -moz-animation: archiTse 29s ease infinite;
+  -o-animation: archiTse 29s ease infinite;
+  animation: archiTse 29s ease infinite;
+}
+
+@-webkit-keyframes archiTse {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes archiTse {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes archiTse {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes archiTse {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+/* Background for Do-stars */
+
+.bgDostars {
+  background: linear-gradient(270deg, #379bd4, #323a47);
+  background-size: 400% 400%;
+
+  -webkit-animation: dostars 29s ease infinite;
+  -moz-animation: dostars 29s ease infinite;
+  -o-animation: dostars 29s ease infinite;
+  animation: dostars 29s ease infinite;
+}
+
+@-webkit-keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes dostars {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
