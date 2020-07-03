@@ -1,9 +1,19 @@
 import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
 import Swiper from 'react-id-swiper';
 import imgOff from '../datas/image.data'
 
+const useStyles = makeStyles((theme) => ({
+  
+    style: {
+       color: 'white'
+    }
+    
+  }));
 
-function Archi(props) {
+function About(props) {
+
+    const classes = useStyles()
     const params = {
         autoplay: {
             delay: 2500,
@@ -23,7 +33,7 @@ function Archi(props) {
     return (
         <div>
             <Swiper {...params}>
-                <div style={{ backgroundColor: '' }}><h2>A propos de Teranga Skills !</h2></div>
+                <div className={classes.style}><h2>A propos de Teranga Skills !</h2></div>
                 <div><img src={imgOff.prefab[0]} alt="" /></div>
                 <div><img src={imgOff.prefab[2]} alt="" /></div>
             </Swiper>
@@ -31,4 +41,4 @@ function Archi(props) {
     )
 }
 
-export default Archi
+export default About

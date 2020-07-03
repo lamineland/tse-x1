@@ -9,6 +9,11 @@ import Archi from './components/archi.component'
 import Dev from './components/dev.component'
 import Dostars from './components/dostars.component'
 
+import About from './components/about.component'
+import Projets from './components/about.component'
+import Produits from './components/produits.component'
+import Contact from './pages/contact.page'
+
 import LesLiens from './components/enterprise.component'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
@@ -47,12 +52,16 @@ const App = () => {
             <Col xs={12} lg={8} xl={6}>
               <Grid container direction="column" justify="center" alignItems="center" height="100%">
                 <Box width="95%" height="100%" borderRadius={4} boxShadow={6} style={{ overflow: 'hidden' }}> 
-                    <Switch>
-                      <Route path='/' exact component={Home} />
-                      <Route path="/dev" component={Dev}/>
-                      <Route path="/archi" component={Archi}/>
-                      <Route path="/dostars" component={Dostars}/>
-                    </Switch>
+                  <Switch>
+                    <Route path='/' exact component={Home} />
+                    <Route path="/dev" component={Dev} />
+                    <Route path="/archi" component={Archi} />
+                    <Route path="/dostars" component={Dostars} />
+                    <Route path="/about" component={About} />
+                    <Route path="/produits" component={Produits} />
+                    <Route path="/projets" component={Projets} />
+                    <Route path="/contact" component={Contact} />
+                  </Switch>
                 </Box>
               </Grid>
             </Col>

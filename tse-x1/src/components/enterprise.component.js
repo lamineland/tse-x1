@@ -49,19 +49,19 @@ function LesLiens() {
                         <Box boxShadow={4} borderRadius={5} mt={3} fontWeight={500} textAlign="center">
                             <NavLink className={classes.a} to="/dev">
                                 <Button 
-                                    className={classes.button}>Dev</Button>
+                                    className={classes.button}>Dev <span style={{ fontSize: '18px' }} role="img" aria-label="">🚀</span></Button>
                             </NavLink>
                         </Box>
                         <Box boxShadow={4} bgcolor="background.paper" borderRadius={5} mt={3} fontWeight={500} textAlign="center">
                             <NavLink className={classes.a} to="/archi">
                                 <Button 
-                                    className={classes.button}>Archi</Button>
+                                    className={classes.button}>Archi <span style={{ fontSize: '18px' }} role="img" aria-label="">🗼</span></Button>
                             </NavLink>
                         </Box>
                         <Box boxShadow={4} bgcolor="background.paper" borderRadius={5} mt={3} fontWeight={500} textAlign="center">
                             <NavLink className={classes.a} to="/dostars">
                                 <Button 
-                                className={classes.button}>Do-stars</Button>
+                                className={classes.button}>Do-stars <span style={{ fontSize: '18px' }} role="img" aria-label="">🌠</span></Button>
                             </NavLink>
                         </Box>
                 </Box>

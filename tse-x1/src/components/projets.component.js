@@ -3,7 +3,7 @@ import Swiper from 'react-id-swiper';
 import imgOff from '../datas/image.data'
 
 
-function Produits(props) {
+function Projets(props) {
     const params = {
         autoplay: {
             delay: 2500,
@@ -31,4 +31,4 @@ function Produits(props) {
     )
 }
 
-export default Produits
+export default Projets
